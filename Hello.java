@@ -81,24 +81,5 @@
 //     }
 // }
 
-class Hello {
-    public static void main(String[] args) {
-        int number = 15;
 
-        if (number % 2 == 0) {
-            System.out.println(number + " is even.");
-        } else {
-            System.out.println(number + " is odd.");
-        }
-
-        // nested if-else example
-        if (number > 0) {
-            System.out.println(number + " is positive.");
-        } else if (number < 0) {
-            System.out.println(number + " is negative.");
-        } else {
-            System.out.println(number + " is zero.");
-        }
-    }
-}
 
