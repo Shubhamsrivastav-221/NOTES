@@ -215,22 +215,22 @@
 
 // two pointer techinque............. 
 
-class array{
-    public static void main(String[] args) {
-        int [] arr = {4,5,6,2,4,8,6,5,7,5,};
-        int n = arr.length;
-        int i = 2, j = 6;
-        while(i<j){
-            int temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
-            i++;
-            j--;
-        }
-        for(int ele :arr) System.out.print(ele+" ");
+// class array{
+//     public static void main(String[] args) {
+//         int [] arr = {4,5,6,2,4,8,6,5,7,5,};
+//         int n = arr.length;
+//         int i = 2, j = 6;  // swaping  mid value ......
+//         while(i<j){
+//             int temp = arr[i];
+//             arr[i] = arr[j];
+//             arr[j] = temp;
+//             i++;
+//             j--;
+//         }
+//         for(int ele :arr) System.out.print(ele+" ");
 
-    }
-}
+//     }
+// }
 
 
 
