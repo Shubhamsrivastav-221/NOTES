@@ -81,14 +81,15 @@
 //     }
 // }
 
+// reverse string ..................
 
-class string1{
-    public static void main(String[] args) {
-        String s = "Shubham";
-        StringBuilder sb = new StringBuilder(s);
-        sb.reverse();
-        System.out.println(sb);
+// class string1{
+//     public static void main(String[] args) {
+//         String s = "Shubham";
+//         StringBuilder sb = new StringBuilder(s);
+//         sb.reverse();
+//         System.out.println(sb);
 
-    }
-}
+//     }
+// }
 
